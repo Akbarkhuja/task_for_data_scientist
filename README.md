@@ -11,12 +11,19 @@ There are 5 files on the link to google drive: https://drive.google.com/drive/fo
 #### reviews.parquet - a file with reviews of purchases on the marketplace.
  Each review has:
 • order_item_id - the unique identifier of the order
+
 • product_id - the unique identifier of the product
+
 • customer_id - the unique identifier of the buyer
+
 • review_text - the customer's text review of the product
+
 • shop_id - the unique identifier of the store
+
 • rating - rating on a scale from 1 to 5
+
 • date_created - timestamp for creating
+
 ### a returns.parquet review - a file with product returns on the marketplace.
 • id - the unique identifier of the return of the product
 • product_id - the unique identifier of the product
