@@ -1,14 +1,15 @@
 # task_for_data_scientist
 
 # A test from UZUM Market! 🛒
-## Task
+### Task
 Returns of goods pose a serious problem for online marketplaces. Statistics show that approximately 15% to 40% of all online purchases are returned, which not only creates financial difficulties for businesses, but also entails serious environmental problems due to the huge number of goods ending up in landfills. To reduce the number of refunds, it is critically important for sellers to be able to identify the reasons for the refund as early as possible. However, this information often becomes available only after a significant number of product returns. Understanding the reasons for the return of goods and predicting them can greatly help reduce this problem.
-Goal
+#Goal
 To develop a machine learning model that will solve the problem of multiclass classification and predict the probability distribution of the reasons for the return of goods based on a variety of factors, including textual customer reviews.
 Input data format
 There are 5 files on the link to google drive:
 return_reasons.parquet is a dictionary file with unique reasons for returning an item. Each reason has an id and description. There are 5 unique ones in total - [DEFECTED, WRONG_ITEM, BAD_QUALITY, PHOTO_MISMATCH, WRONG_SIZE]
 reviews.parquet - a file with reviews of purchases on the marketplace.
+
 Each review has:
 • order_item_id - the unique identifier of the order
 • product_id - the unique identifier of the product
