@@ -24,7 +24,7 @@ There are 5 files on the link to google drive: https://drive.google.com/drive/fo
 
 • date_created - timestamp for creating
 
-### a returns.parquet review - a file with product returns on the marketplace.
+#### a returns.parquet review - a file with product returns on the marketplace.
 • id - the unique identifier of the return of the product
 
 • product_id - the unique identifier of the product
@@ -59,11 +59,5 @@ To evaluate the classification model model, we chose Macro Average Precision:
 
 • Macro Average Precision - calculates the accuracy for each class separately, and then averages them, treating all classes equally regardless of their frequency or imbalance in the dataset.
 Requirements for the solution
-
-### ❗️❗️❗️ The solution must be downloaded via the link in the form of a zip archive, which contains at the root:
-
-• the **solution** folder with all *.py and *.ipynb files
-
-• file **result.parquet**
 
 Good luck!
